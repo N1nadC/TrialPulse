@@ -9,6 +9,19 @@ TrialPulse is a portfolio project. All data used by the project is synthetic; no
 3. Measure before you claim. No number goes in the README or on a resume unless you measured it.
 4. Write and understand every class and component yourself. If you use AI help for a first draft, rewrite it, and be ready to explain every decision live.
 
+## Phase 0 verification
+
+All six Phase 0 checklist items in the project blueprint are complete:
+
+1. Developer Edition org created and Dev Hub enabled.
+2. Salesforce CLI installed and authorized to the Dev Hub with an alias.
+3. The `TrialPulseDev` scratch org was created, opened, and verified as Active.
+4. Node.js, Git, and Python are installed.
+5. GitHub repository created and `main` branch protected.
+6. The blueprint ground rules are recorded in this README, including that all data is synthetic.
+
+The Phase 0 deployment exit gate has not been demonstrated. `sf project deploy preview` completed with no conflicts, but reported no files to deploy. The `force-app/main/default` package directory currently contains no metadata, so an actual empty-project deployment could not be demonstrated. No placeholder metadata, Apex classes, or Lightning Web Components were added for this check.
+
 Salesforce DX is a development approach that brings source-driven development, team collaboration, and continuous integration to the Salesforce Platform. Instead of working directly in an org through a web browser, you work with metadata as source files in a local DX project, track changes in version control, and deploy through automated processes.
 
 This project template gets you started with the tools and structure you need to build Salesforce applications using source control, scratch orgs, and the Salesforce CLI.
